@@ -8,9 +8,9 @@ primary lighter: #F0F8F5;
 */
 
 // primary #007A52
-$primary-h: 160;
-$primary-s: 100;
-$primary-b: 48;
+//$primary-h: 160;
+//$primary-s: 100;
+//$primary-b: 48;
 
 //buttons custom vars
 
@@ -23,14 +23,19 @@ $primary-b: 48;
 @import 'utilities/colors_vars';
 
 // color custom variables
-$color-text-primary-hover: hsl(160, 100%, 19%); // color-seagreen-19
-$color-text-primary-active: hsl(160, 100%, 14%); // color-seagreen-14
-$color-background-primary-lighter: hsl(160, 40%, 92%); // color-seagreen-92
+$color-text-primary-hover: hsl($primary-h, $primary-s * 1%, calc($primary-b * 33.3 / 100) * 1%);
+$color-text-primary-active: hsl($primary-h, $primary-s * 1%, calc($primary-b * 25 / 100) * 1%);
+$color-background-primary-lighter: hsl($primary-h, 40%, 92%); // color-seagreen-92
 $btn-comuni-primary-hover: #fff;
 $header-center-bg-color: $primary;
-$header-slim-bg-color: #00402b;
+$header-slim-bg-color: hsl($primary-h, $primary-s * 1%, calc($primary-b * 25 / 100) * 1%) !default;
+$color-text-secondary: hsl($primary-h, 33%, 28%);
+//$header-slim-bg-color: hsl(160, 100%, 13%);
+//$header-slim-bg-color: #00402b;
+// https://www.color-hex.com/color/00402b
+
 $section-header-background-color: $primary-a10;
-$section-user-header-background-color: #f0f8f5;
+$section-user-header-background-color: $primary-a1 !default;
 $card-link-color: $primary;
 $card-comuni-bg-dark: #2c2c2c;
 $footer-comuni-bg-color: #202a2e;
