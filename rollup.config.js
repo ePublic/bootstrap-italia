@@ -276,4 +276,10 @@ export default [
     output: { dir: 'dist' },
     plugins: [scss({ output: 'dist/css/bi-viola-7A0052.min.css', outputStyle: 'compressed', watch: 'src/scss' })],
   },
+
+  {
+    input: 'src/scss/bi-blu-OC.scss',
+    output: { dir: 'dist' },
+    plugins: [scss({ output: 'dist/css/bi-blu-OC.css', outputStyle: 'compressed', watch: 'src/scss' })],
+  },
 ]
