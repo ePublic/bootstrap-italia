@@ -1,3 +1,62 @@
+## [2.7.8](https://github.com/italia/bootstrap-italia/compare/v2.7.7...v2.7.8) (2023-11-30)
+
+
+### Bug Fixes
+
+* active label input group ([53c303b](https://github.com/italia/bootstrap-italia/commit/53c303b91e45f6bb8cc1adc2d0d7d639f6a37096))
+* chips margins ([ee4a81e](https://github.com/italia/bootstrap-italia/commit/ee4a81edb8aa8885d2b64e733a60a43adf597ec6))
+* container xl max width ([3ce6086](https://github.com/italia/bootstrap-italia/commit/3ce60862fc5b42e8bf7784e472f5606b6b6c6964))
+* **i18n:** video component italian labels ([9679e1b](https://github.com/italia/bootstrap-italia/commit/9679e1bcc85aee8c6798870562bb04893ddcb631))
+
+
+### Features
+
+* remove bootstrap italia comuni ([35d56a2](https://github.com/italia/bootstrap-italia/commit/35d56a266f27b53b90c4c66be0bc23513e1a86bb))
+
+
+
+## [2.7.7](https://github.com/italia/bootstrap-italia/compare/v2.7.6...v2.7.7) (2023-11-21)
+
+
+### Bug Fixes
+
+* video js bar popup elements ([fdd9a63](https://github.com/italia/bootstrap-italia/commit/fdd9a63db3c2203ece63dced02304576c4e8361e))
+
+
+
+## [2.7.6](https://github.com/italia/bootstrap-italia/compare/v2.7.5...v2.7.6) (2023-11-16)
+
+
+### Bug Fixes
+
+* **a11y:** focus selector for tabs ([ef4d561](https://github.com/italia/bootstrap-italia/commit/ef4d561f8003202e6413efc80c41c3e611b20706))
+* chips margin ([e24854b](https://github.com/italia/bootstrap-italia/commit/e24854bcfacb95489118dbfdb5c624d23533197d))
+
+
+### Features
+
+* add sizes large and xl to standard and double spinners ([5db40d9](https://github.com/italia/bootstrap-italia/commit/5db40d99af60fbfd76d6cd2693752136786e67ad))
+
+
+
+## [2.7.5](https://github.com/italia/bootstrap-italia/compare/v2.7.4...v2.7.5) (2023-10-25)
+
+
+### Bug Fixes
+
+* hide unnecessary video controls on mobile ([b671d02](https://github.com/italia/bootstrap-italia/commit/b671d02ba36551372b6aa7ef88ee0a1f22a7c88f))
+
+
+
+## [2.7.4](https://github.com/italia/bootstrap-italia/compare/v2.7.3...v2.7.4) (2023-10-18)
+
+
+### Bug Fixes
+
+* load youtube plugin from bootstrap italia ([1b55ad3](https://github.com/italia/bootstrap-italia/commit/1b55ad3169095f638743c15dd4ed737eee2b72c3))
+
+
+
 ## [2.7.3](https://github.com/italia/bootstrap-italia/compare/v2.7.2...v2.7.3) (2023-10-10)
 
 
