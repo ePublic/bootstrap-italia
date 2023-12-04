@@ -15,7 +15,7 @@ $primary-b: 48;
 
 Come ricompilare la libreria:
 
-1. Effettuare rebase sulla changelist di rilascio
+1. Effettuare rebase sulla changelist di rilascio - o forse è meglio fare merge into current branch (DA VERIFICARE AL PROSSIMO RILASCIO)
 2. Per ricompilare eseguire nella root:
 
    npm run build
