@@ -1,46 +1,10 @@
-// color custom variables
-
-/*figma color
-primary: #007A52;
-primary dark: #00402B;
-primary light: #56D6AB;
-primary lighter: #F0F8F5;
-*/
-
-// primary #007A52
-//$primary-h: 160;
-//$primary-s: 100;
-//$primary-b: 48;
-
-//buttons custom vars
-
 // bootstrap italia version variable
 // useful to check for the current version
 @import 'custom/version';
 
 // funzioni e variabili colore
 @import 'functions';
-@import 'utilities/colors_vars';
-
-// color custom variables
-$color-text-primary-hover: hsl($primary-h, $primary-s * 1%, calc($primary-b * 33.3 / 100) * 1%);
-$color-text-primary-active: hsl($primary-h, $primary-s * 1%, calc($primary-b * 25 / 100) * 1%);
-$color-background-primary-lighter: hsl($primary-h, 40%, 92%); // color-seagreen-92
-$btn-comuni-primary-hover: #fff;
-$header-center-bg-color: $primary;
-$header-slim-bg-color: hsl($primary-h, $primary-s * 1%, calc($primary-b * 25 / 100) * 1%) !default;
-$color-text-secondary: hsl($primary-h, 33%, 28%);
-//$header-slim-bg-color: hsl(160, 100%, 13%);
-//$header-slim-bg-color: #00402b;
-// https://www.color-hex.com/color/00402b
-
-$section-header-background-color: $primary-a10;
-$section-user-header-background-color: $primary-a1 !default;
-$card-link-color: $primary;
-$card-comuni-bg-dark: #2c2c2c;
-$footer-comuni-bg-color: #202a2e;
-$link-list-comuni-color: #455a64;
-$link-list-hover-color: $primary;
+@import 'utilities/ep-colors_vars'; // MODIFICA EP
 
 //variables
 @import 'variables';
@@ -155,10 +119,12 @@ $link-list-hover-color: $primary;
 @import 'custom/gridlist';
 @import 'custom/popover';
 @import 'custom/tooltip';
+@import 'custom/videoplayer';
 @import 'custom/list';
 @import 'custom/chips';
 @import 'custom/rating';
 @import 'custom/dimmer';
+@import 'custom/accept-overlay';
 @import 'custom/timeline';
 @import 'custom/anchor';
 @import 'custom/map';
@@ -201,9 +167,3 @@ $link-list-hover-color: $primary;
 //gestione dei focus
 @import 'utilities/focus';
 @import 'utilities/icons';
-
-// splide carousel
-@import '@splidejs/splide/src/css/core/index';
-
-// override comuni
-//@import 'override-comuni';
