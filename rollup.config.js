@@ -144,7 +144,7 @@ export default [
   // Entry for Comuni
   {
     input: 'src/scss/bi-verde-standard.scss',
-    plugins: [scss({ output: 'dist/css/bootstrap-italia-comuni.min.css', outputStyle: 'compressed', watch: 'src/scss' })],
+    plugins: [scss({ output: 'dist/css/bi-verde-standard.css', outputStyle: 'compressed', watch: 'src/scss' })],
   },
 
   {
