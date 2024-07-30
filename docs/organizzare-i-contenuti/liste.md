@@ -11,6 +11,12 @@ description: La lista è un componente flessibile per la visualizzazione di list
 
 Le liste, costituite da tag `<ul>` con classe `.it-list` all'interno di un wrapper con classe `.it-list-wrapper`, possono contenere testi, link, icone, avatar, immagini o una combinazione di questi elementi.
 
+{% capture callout %}
+Breaking feature dalla versione **2.8.0**
+
+Gli elementi di tipo `<a>` dei collapse necessitano l'aggiunta dell'attributo `role="button"`.
+{% endcapture %}{% include callout.html content=callout type="danger" %}
+
 ### Lista semplice solo testo
 
 {% comment %}Example name: Base, con testo{% endcomment %}
@@ -83,9 +89,7 @@ L'elemento `.it-rounded-icon` con all'interno la relativa icona, precede l'eleme
     <li>
       <div class="list-item">
         <div class="it-rounded-icon">
-          <svg class="icon">
-            <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-folder"></use>
-          </svg>
+          <svg class="icon"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-folder"></use></svg>
         </div>
         <div class="it-right-zone"><span class="text">Testo</span>
         </div>
@@ -94,9 +98,7 @@ L'elemento `.it-rounded-icon` con all'interno la relativa icona, precede l'eleme
     <li>
       <a href="#" class="list-item">
         <div class="it-rounded-icon">
-          <svg class="icon">
-            <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-folder"></use>
-          </svg>
+          <svg class="icon"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-folder"></use></svg>
         </div>
         <div class="it-right-zone"><span class="text">Link</span>
         </div>
@@ -105,9 +107,7 @@ L'elemento `.it-rounded-icon` con all'interno la relativa icona, precede l'eleme
     <li>
       <a class="list-item active" href="#">
         <div class="it-rounded-icon">
-          <svg class="icon">
-            <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-folder"></use>
-          </svg>
+          <svg class="icon"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-folder"></use></svg>
         </div>
         <div class="it-right-zone"><span class="text">Link attivo</span>
         </div>
@@ -166,9 +166,7 @@ L'elemento `.icon` con all'interno la relativa icona segue l'elemento `.text` ch
       <a href="#" class="list-item">
         <div class="it-right-zone">
           <span class="text">Link</span>
-          <svg class="icon">
-            <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-chevron-right"></use>
-          </svg>
+          <svg class="icon"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-chevron-right"></use></svg>
         </div>
       </a>
     </li>
@@ -176,9 +174,7 @@ L'elemento `.icon` con all'interno la relativa icona segue l'elemento `.text` ch
       <a class="active list-item" href="#">
         <div class="it-right-zone">
           <span class="text">Link attivo</span>
-          <svg class="icon">
-            <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-chevron-right"></use>
-          </svg>
+          <svg class="icon"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-chevron-right"></use></svg>
         </div>
       </a>
     </li>
@@ -200,19 +196,13 @@ L'elemento `.it-multiple` con all'interno le relative icone, segue l'elemento `.
           <span class="text">Testo</span>
           <span class="it-multiple">
             <a href="#" aria-label="Testo - Azione 1">
-              <svg class="icon">
-                <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
-              </svg>
+              <svg class="icon"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use></svg>
             </a>
             <a href="#" aria-label="Testo - Azione 2">
-              <svg class="icon">
-                <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
-              </svg>
+              <svg class="icon"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use></svg>
             </a>
             <a href="#" aria-label="Testo - Azione 3">
-              <svg class="icon">
-                <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
-              </svg>
+              <svg class="icon"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use></svg>
             </a>
           </span>
         </div>
@@ -226,19 +216,13 @@ L'elemento `.it-multiple` con all'interno le relative icone, segue l'elemento `.
           </a>
           <span class="it-multiple">
             <a href="#" aria-label="Link - Azione 1">
-              <svg class="icon">
-                <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
-              </svg>
+              <svg class="icon"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use></svg>
             </a>
             <a href="#" aria-label="Link - Azione 2">
-              <svg class="icon">
-                <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
-              </svg>
+              <svg class="icon"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use></svg>
             </a>
             <a href="#" aria-label="Link - Azione 3">
-              <svg class="icon">
-                <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
-              </svg>
+              <svg class="icon"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use></svg>
             </a>
           </span>
         </div>
@@ -252,19 +236,13 @@ L'elemento `.it-multiple` con all'interno le relative icone, segue l'elemento `.
           </a>
           <span class="it-multiple">
             <a href="#" aria-label="Link attivo - Azione 1">
-              <svg class="icon">
-                <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
-              </svg>
+              <svg class="icon"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use></svg>
             </a>
             <a href="#" aria-label="Link attivo - Azione 2">
-              <svg class="icon">
-                <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
-              </svg>
+              <svg class="icon"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use></svg>
             </a>
             <a href="#" aria-label="Link attivo - Azione 3">
-              <svg class="icon">
-                <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
-              </svg>
+              <svg class="icon"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use></svg>
             </a>
           </span>
         </div>
@@ -339,19 +317,13 @@ Per il testo aggiuntivo, utilizzare il tag `<em>` all'interno dell'elemento `.te
           <span class="it-multiple">
             <span class="metadata">metadata testo</span>
             <a href="#" aria-label="Testo - Azione 1">
-              <svg class="icon">
-                <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
-              </svg>
+              <svg class="icon"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use></svg>
             </a>
             <a href="#" aria-label="Testo - Azione 2">
-              <svg class="icon">
-                <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
-              </svg>
+              <svg class="icon"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use></svg>
             </a>
             <a href="#" aria-label="Testo - Azione 3">
-              <svg class="icon">
-                <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
-              </svg>
+              <svg class="icon"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use></svg>
             </a>
           </span>
         </div>
@@ -364,19 +336,13 @@ Per il testo aggiuntivo, utilizzare il tag `<em>` all'interno dell'elemento `.te
           <span class="it-multiple">
             <span class="metadata"><a href="#">metadata link</a></span>
             <a href="#" aria-label="Testo 2 - Azione 1">
-              <svg class="icon">
-                <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
-              </svg>
+              <svg class="icon"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use></svg>
             </a>
             <a href="#" aria-label="Testo 2 - Azione 2">
-              <svg class="icon">
-                <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
-              </svg>
+              <svg class="icon"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use></svg>
             </a>
             <a href="#" aria-label="Testo 2 - Azione 3">
-              <svg class="icon">
-                <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
-              </svg>
+              <svg class="icon"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use></svg>
             </a>
           </span>
         </div>
@@ -389,19 +355,13 @@ Per il testo aggiuntivo, utilizzare il tag `<em>` all'interno dell'elemento `.te
           <span class="it-multiple">
             <span class="metadata"><a href="#">metadata link</a></span>
             <a href="#" aria-label="Link - Azione 1">
-              <svg class="icon">
-                <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
-              </svg>
+              <svg class="icon"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use></svg>
             </a>
             <a href="#" aria-label="Link - Azione 2">
-              <svg class="icon">
-                <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
-              </svg>
+              <svg class="icon"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use></svg>
             </a>
             <a href="#" aria-label="Link - Azione 3">
-              <svg class="icon">
-                <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
-              </svg>
+              <svg class="icon"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use></svg>
             </a>
           </span>
         </div>
@@ -414,19 +374,13 @@ Per il testo aggiuntivo, utilizzare il tag `<em>` all'interno dell'elemento `.te
           <span class="it-multiple">
             <span class="metadata">metadata testo</span>
             <a href="#" aria-label="Link attivo - Azione 1">
-              <svg class="icon">
-                <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
-              </svg>
+              <svg class="icon"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use></svg>
             </a>
             <a href="#" aria-label="Link attivo - Azione 2">
-              <svg class="icon">
-                <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
-              </svg>
+              <svg class="icon"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use></svg>
             </a>
             <a href="#" aria-label="Link attivo - Azione 3">
-              <svg class="icon">
-                <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
-              </svg>
+              <svg class="icon"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use></svg>
             </a>
           </span>
         </div>
@@ -436,9 +390,9 @@ Per il testo aggiuntivo, utilizzare il tag `<em>` all'interno dell'elemento `.te
 </div>
 {% endcapture %}{% include example.html content=example %}
 
-## Liste per menù di navigazione
+## Liste per menu di navigazione
 
-Le liste per menù di navigazione, costituite da tag `<ul>` con classe `.link-list` all'interno di un wrapper con classe `.link-list-wrapper`, vengono utilizzate per creare le voci dei menù [Dropdown]({{site.baseurl}}/docs/componenti/dropdown/), [Megamenu]({{site.baseurl}}/docs/menu-di-navigazione/megamenu/), [Sidebar]({{site.baseurl}}/docs/menu-di-navigazione/sidebar/) e [Navscroll]({{site.baseurl}}/docs/menu-di-navigazione/navscroll/).
+Le liste per menu di navigazione, costituite da tag `<ul>` con classe `.link-list` all'interno di un wrapper con classe `.link-list-wrapper`, vengono utilizzate per creare le voci dei menu [Dropdown]({{site.baseurl}}/docs/componenti/dropdown/), [Megamenu]({{site.baseurl}}/docs/menu-di-navigazione/megamenu/), [Sidebar]({{site.baseurl}}/docs/menu-di-navigazione/sidebar/) e [Navscroll]({{site.baseurl}}/docs/menu-di-navigazione/navscroll/).
 
 ### Linea singola
 
@@ -863,7 +817,7 @@ Per questo tipo di link list sono state utilizzate, oltre alle classi custom, le
 <div class="link-list-wrapper">
   <ul class="link-list">
     <li>
-      <a class="list-item large medium icon-right" href="#collapseOne" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseOne">
+      <a class="list-item large medium icon-right" href="#collapseOne" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseOne">
         <span class="list-item-title-icon-wrapper">
           <span class="list-item-title">Link lista 1</span>
           <svg class="icon icon-primary"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-expand"></use></svg>
@@ -879,7 +833,7 @@ Per questo tipo di link list sono state utilizzate, oltre alle classi custom, le
       </ul>
     </li>
     <li>
-      <a class="list-item large medium icon-right" href="#collapseTwo" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseTwo">
+      <a class="list-item large medium icon-right" href="#collapseTwo" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseTwo">
         <span class="list-item-title-icon-wrapper">
           <span class="list-item-title">Link lista 2</span>
           <svg class="icon icon-primary"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-expand"></use></svg>
@@ -895,7 +849,7 @@ Per questo tipo di link list sono state utilizzate, oltre alle classi custom, le
       </ul>
     </li>
     <li>
-      <a class="list-item large medium icon-right" href="#collapseThree" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseThree">
+      <a class="list-item large medium icon-right" href="#collapseThree" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseThree">
         <span class="list-item-title-icon-wrapper">
           <span class="list-item-title">Link lista 3</span>
           <svg class="icon icon-primary"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-expand"></use></svg>

@@ -11,6 +11,12 @@ toc: true
 I collegamenti della paginazione sono contenuti per praticità in un elemento `<nav class="pagination-wrapper">` per dare la possibilità agli screenreader, e altre tecnologie assistive, di identificarli come una sezione di navigazione.
 
 {% capture callout %}
+Breaking feature dalla versione **2.8.0**
+
+Il toggle del dropdown diventa `<button>` invece di `<a>`.
+{% endcapture %}{% include callout.html content=callout type="danger" %}
+
+{% capture callout %}
 
 #### Accessibilità
 
@@ -273,10 +279,10 @@ La funzionalità di changer permette di scegliere da un dropdown la quantità di
     </li>
   </ul>
   <div class="dropdown">
-    <a class="btn btn-dropdown dropdown-toggle" href="#" role="button" id="pagerChanger" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Salta alla pagina">
+    <button class="btn btn-dropdown dropdown-toggle" type="button" id="pagerChanger" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Salta alla pagina">
     10/pagina
     <svg class="icon icon-primary icon-sm"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-expand"></use></svg>
-    </a>
+    </button>
     <div class="dropdown-menu" aria-labelledby="pagerChanger">
       <div class="link-list-wrapper">
         <ul class="link-list">
@@ -436,6 +442,78 @@ Aggiungendo la classe `.pagination-total` al tag `<nav>` che contiene la paginaz
 {% comment %}Example name: Con numero totale elementi per pagina{% endcomment %}
 {% capture example %}
 <nav class="pagination-wrapper pagination-total" aria-label="Esempio di navigazione con total number">
+  <ul class="pagination">
+    <li class="page-item">
+      <a class="page-link" href="#">
+        <svg class="icon icon-primary"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-chevron-left"></use></svg>
+        <span class="visually-hidden">Pagina precedente</span>
+      </a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><span class="page-link">...</span></li>
+    <li class="page-item active">
+      <a class="page-link" href="#" aria-current="page">
+        <span class="d-inline-block d-sm-none">Pagina </span>24
+      </a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">25</a></li>
+    <li class="page-item"><a class="page-link" href="#">26</a></li>
+    <li class="page-item"><a class="page-link" href="#">27</a></li>
+    <li class="page-item"><a class="page-link" href="#">28</a></li>
+    <li class="page-item"><span class="page-link">...</span></li>
+    <li class="page-item"><a class="page-link" href="#">50</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">
+        <span class="visually-hidden">Pagina successiva</span>
+        <svg class="icon icon-primary"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-chevron-right"></use></svg>
+      </a>
+    </li>
+  </ul>
+  <p>100-110 di 300 elementi</p>
+</nav>
+{% endcapture %}{% include example.html content=example %}
+
+Con il posizionamento centrale
+
+{% comment %}Example name: Con numero totale elementi per pagina e posizionamento{% endcomment %}
+{% capture example %}
+<nav class="pagination-wrapper justify-content-center pagination-total" aria-label="Esempio di navigazione con total number">
+  <ul class="pagination">
+    <li class="page-item">
+      <a class="page-link" href="#">
+        <svg class="icon icon-primary"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-chevron-left"></use></svg>
+        <span class="visually-hidden">Pagina precedente</span>
+      </a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><span class="page-link">...</span></li>
+    <li class="page-item active">
+      <a class="page-link" href="#" aria-current="page">
+        <span class="d-inline-block d-sm-none">Pagina </span>24
+      </a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">25</a></li>
+    <li class="page-item"><a class="page-link" href="#">26</a></li>
+    <li class="page-item"><a class="page-link" href="#">27</a></li>
+    <li class="page-item"><a class="page-link" href="#">28</a></li>
+    <li class="page-item"><span class="page-link">...</span></li>
+    <li class="page-item"><a class="page-link" href="#">50</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">
+        <span class="visually-hidden">Pagina successiva</span>
+        <svg class="icon icon-primary"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-chevron-right"></use></svg>
+      </a>
+    </li>
+  </ul>
+  <p>100-110 di 300 elementi</p>
+</nav>
+{% endcapture %}{% include example.html content=example %}
+
+Con il posizionamento a destra
+
+{% comment %}Example name: Con numero totale elementi per pagina e posizionamento{% endcomment %}
+{% capture example %}
+<nav class="pagination-wrapper justify-content-end pagination-total" aria-label="Esempio di navigazione con total number">
   <ul class="pagination">
     <li class="page-item">
       <a class="page-link" href="#">

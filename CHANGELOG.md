@@ -1,3 +1,118 @@
+## [2.8.8](https://github.com/italia/bootstrap-italia/compare/v2.8.7...v2.8.8) (2024-06-04)
+
+
+### Bug Fixes
+
+* callout title ([80bd403](https://github.com/italia/bootstrap-italia/commit/80bd403fa19311bea4e16b2751b052c72f4f5fd0))
+* remove dimmer opacity and apply alpha ([e23dadc](https://github.com/italia/bootstrap-italia/commit/e23dadc6b7eccdc8aa21cf01965a0a79405ac6a0))
+* z-index stack ([f72e06f](https://github.com/italia/bootstrap-italia/commit/f72e06fb2aaa37a91dcd793a548663f18da1d46f))
+
+
+
+## [2.8.7](https://github.com/italia/bootstrap-italia/compare/v2.8.6...v2.8.7) (2024-05-20)
+
+
+### Bug Fixes
+
+* check window presence ([d5c16b8](https://github.com/italia/bootstrap-italia/commit/d5c16b871c379248257a3535313910b5eeb4592a))
+
+
+
+## [2.8.6](https://github.com/italia/bootstrap-italia/compare/v2.8.5...v2.8.6) (2024-05-20)
+
+
+### Bug Fixes
+
+* check document presence on ssr ([3e91b5d](https://github.com/italia/bootstrap-italia/commit/3e91b5d6d64ac19bf3997b31629be224567e2d84))
+
+
+
+## [2.8.5](https://github.com/italia/bootstrap-italia/compare/v2.8.4...v2.8.5) (2024-05-08)
+
+
+### Bug Fixes
+
+* remove deprecated declaration ([f6d391b](https://github.com/italia/bootstrap-italia/commit/f6d391bd0035c789da8ed593eab2c94962f160b7))
+
+
+
+## [2.8.4](https://github.com/italia/bootstrap-italia/compare/v2.8.3...v2.8.4) (2024-03-22)
+
+
+### Bug Fixes
+
+* callout title size ([584cac8](https://github.com/italia/bootstrap-italia/commit/584cac895b3a2a1f16a8d93b2b9739554b10cd25))
+* changed alert size and position ([204eb4f](https://github.com/italia/bootstrap-italia/commit/204eb4f20ed5f4ff318115385059196621eee0e5))
+* changes badge size ([a2123d1](https://github.com/italia/bootstrap-italia/commit/a2123d1be824c4c0d10d15ff66e9ea86b127f190))
+
+
+
+## [2.8.3](https://github.com/italia/bootstrap-italia/compare/v2.8.2...v2.8.3) (2024-03-12)
+
+
+### Bug Fixes
+
+* add threads icons ([fe62129](https://github.com/italia/bootstrap-italia/commit/fe6212965d071e19e1b785f22585937da4a93efc))
+
+
+
+## [2.8.2](https://github.com/italia/bootstrap-italia/compare/v2.8.1...v2.8.2) (2024-01-10)
+
+
+### Bug Fixes
+
+* removed forced underline ([1ed1bea](https://github.com/italia/bootstrap-italia/commit/1ed1bea3cc3fe0c003c65b73ea428fc0e59c0174))
+
+
+
+## [2.8.1](https://github.com/italia/bootstrap-italia/compare/v2.8.0...v2.8.1) (2023-12-18)
+
+
+### Bug Fixes
+
+* navbar mobile focus ([b29aebb](https://github.com/italia/bootstrap-italia/commit/b29aebba6f1c5a7aa253617dfe1bc8c24e3c8d30))
+
+
+
+# [2.8.0](https://github.com/italia/bootstrap-italia/compare/v2.7.12...v2.8.0) (2023-12-15)
+
+
+### Features
+
+* **a11y:** buttons and anchors changes ([5dcd6e8](https://github.com/italia/bootstrap-italia/commit/5dcd6e87571eac5a3e4de33eb0e1e01d7a9d282f))
+* **a11y:** new megamenu ([96005f7](https://github.com/italia/bootstrap-italia/commit/96005f78c9497e265a2233798f83f43f68e4543d))
+* new input with prepend icon ([825cdca](https://github.com/italia/bootstrap-italia/commit/825cdca7679e50539e3a33e61681a0ece8a0f21f))
+
+
+
+## [2.7.12](https://github.com/italia/bootstrap-italia/compare/v2.7.11...v2.7.12) (2023-12-13)
+
+
+### Bug Fixes
+
+* input group text height ([3f53e1a](https://github.com/italia/bootstrap-italia/commit/3f53e1a3bc826f22e753b5e8def97393c92a8acf))
+
+
+
+## [2.7.11](https://github.com/italia/bootstrap-italia/compare/v2.7.10...v2.7.11) (2023-12-13)
+
+
+### Bug Fixes
+
+* input height ([287d8b9](https://github.com/italia/bootstrap-italia/commit/287d8b9a7dfe9485c806cf94551b13bb1dbded68))
+* label consistency ([1ecec9b](https://github.com/italia/bootstrap-italia/commit/1ecec9bae1be43cf93bed0d55dad66b8116417cc))
+
+
+
+## [2.7.10](https://github.com/italia/bootstrap-italia/compare/v2.7.9...v2.7.10) (2023-12-07)
+
+
+### Bug Fixes
+
+* select appearance ([beeff56](https://github.com/italia/bootstrap-italia/commit/beeff5605278f5fa7c222dd852b371e1538b102c))
+
+
+
 ## [2.7.9](https://github.com/italia/bootstrap-italia/compare/v2.7.8...v2.7.9) (2023-12-05)
 
 
