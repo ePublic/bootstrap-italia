@@ -255,4 +255,9 @@ export default [
     input: 'src/scss/bi-blu-OC.scss',
     plugins: [scss({ output: 'dist/css/bi-blu-OC.css', outputStyle: 'compressed', watch: 'src/scss' })],
   },
+
+  {
+    input: 'src/scss/bi-nero-porpora-7D2670.scss',
+    plugins: [scss({ output: 'dist/css/bi-nero-porpora-7D2670.css', outputStyle: 'compressed', watch: 'src/scss' })],
+  },  
 ]
