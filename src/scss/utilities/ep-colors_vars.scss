@@ -135,13 +135,13 @@ $theme-colors: map-merge(
 
 // ACCENT COLORS DEFINITIONS
 // analoghi
-$analogue-1-h: 243;
-$analogue-1-s: 85;
-$analogue-1-b: 100;
+//$analogue-1-h: 243;
+//$analogue-1-s: 85;
+//$analogue-1-b: 100;
 $analogue-1: hsb($analogue-1-h, $analogue-1-s, $analogue-1-b) !default;
-$analogue-2-h: 178;
-$analogue-2-s: 95;
-$analogue-2-b: 85;
+//$analogue-2-h: 178;
+//$analogue-2-s: 95;
+//$analogue-2-b: 85;
 $analogue-2: hsb($analogue-2-h, $analogue-2-s, $analogue-2-b) !default;
 // Complementari e triadici
 $complementary-1-h: 351;
