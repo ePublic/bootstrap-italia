@@ -1,3 +1,36 @@
+# [2.12.0](https://github.com/italia/bootstrap-italia/compare/v2.11.2...v2.12.0) (2024-11-25)
+
+
+### Bug Fixes
+
+* remove removed element reference from toolbar ([7ea92a4](https://github.com/italia/bootstrap-italia/commit/7ea92a4f76109a8f9eb16d6fe62c62a1f5a08b1b))
+
+
+### Features
+
+* new focus state ([a1c837b](https://github.com/italia/bootstrap-italia/commit/a1c837be9e36ffcb6bc7561a6034a293ab294e66))
+
+
+
+## [2.11.2](https://github.com/italia/bootstrap-italia/compare/v2.11.1...v2.11.2) (2024-11-19)
+
+
+### Bug Fixes
+
+* footer inner elements size ([#1278](https://github.com/italia/bootstrap-italia/issues/1278)) ([7c6cd63](https://github.com/italia/bootstrap-italia/commit/7c6cd63431b4c54ed4e7ad3a4014909d02b55b36))
+
+
+
+## [2.11.1](https://github.com/italia/bootstrap-italia/compare/v2.11.0...v2.11.1) (2024-11-18)
+
+
+### Bug Fixes
+
+* footer link decoration ([a507636](https://github.com/italia/bootstrap-italia/commit/a5076365b762ca61ce84a380d666eb51af4e5aa0))
+* remove extra margin ([46bfde2](https://github.com/italia/bootstrap-italia/commit/46bfde208ec2d3f0a940382fbac8ffa30e713113))
+
+
+
 # [2.11.0](https://github.com/italia/bootstrap-italia/compare/v2.10.0...v2.11.0) (2024-11-05)
 
 
