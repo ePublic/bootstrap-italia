@@ -11,7 +11,7 @@ Contiene un elenco di `.timeline-element`.
 
 Ogni `.timeline-element` contiene:
 
-- **PIN**: ogni pin è un elemento contenitore `.it-pin-wrapper` di tipo heading `h` che contiene un0icona (`.pin-icon`) e una label (`.pin-text`) indicante la data dell'evento.
+- **PIN**: ogni pin è un elemento contenitore `.it-pin-wrapper` di tipo heading `h` che contiene un'icona (`.pin-icon`) e una label (`.pin-text`) indicante la data dell'evento.
 
 Il **PIN** ha tre varianti di colore:
 
@@ -27,7 +27,7 @@ Il **PIN** ha tre varianti di colore:
 {% endcapture %}{% include callout.html content=callout type="accessibility" %}
 
 {% capture callout %}
-#### Breaking feature dalla versione **2.11**
+Breaking feature dalla versione **2.11**
 
 Il codice markup è stato rivisto in chiave accessibilità e robustezza. In particolare cosa cambia: 
   - L'elemento `.pin-wrapper` è ora implementato come heading `h` e non semplice `div`. Dovrà avere il livello intestazione corretto a seconda della gerarchia in pagina.

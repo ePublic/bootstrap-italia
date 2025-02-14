@@ -475,7 +475,6 @@ Utilizzando gli strumenti di layout di Bootstrap 5 è possibile realizzare tab a
         <a class="nav-link active" id="nav-vertical-tab1-tab" data-bs-toggle="tab" href="#nav-vertical-tab1" role="tab" aria-controls="nav-vertical-tab1" aria-selected="true">Tab 1</a>
         <a class="nav-link" id="nav-vertical-tab2-tab" data-bs-toggle="tab" href="#nav-vertical-tab2" role="tab" aria-controls="nav-vertical-tab2" aria-selected="false">Tab 2</a>
         <a class="nav-link" id="nav-vertical-tab3-tab" data-bs-toggle="tab" href="#nav-vertical-tab3" role="tab" aria-controls="nav-vertical-tab3" aria-selected="false">Tab 3</a>
-        <a class="nav-link">...</a>
       </div>
     </div>
     <div class="col-8 col-md-9">
@@ -502,7 +501,6 @@ Aggiungendo la classe `.nav-tabs-vertical-background` al `<div>` contenitore dei
         <a class="nav-link active" id="nav-vertical-tab-bg1-tab" data-bs-toggle="tab" href="#nav-vertical-tab-bg1" role="tab" aria-controls="nav-vertical-tab-bg1" aria-selected="true">Tab 1</a>
         <a class="nav-link" id="nav-vertical-tab-bg2-tab" data-bs-toggle="tab" href="#nav-vertical-tab-bg2" role="tab" aria-controls="nav-vertical-tab-bg2" aria-selected="false">Tab 2</a>
         <a class="nav-link" id="nav-vertical-tab-bg3-tab" data-bs-toggle="tab" href="#nav-vertical-tab-bg3" role="tab" aria-controls="nav-vertical-tab-bg3" aria-selected="false">Tab 3</a>
-        <a class="nav-link">...</a>
       </div>
     </div>
     <div class="col-8 col-md-9">
@@ -527,7 +525,6 @@ Aggiungendo la classe `.nav-tabs-vertical-background` al `<div>` contenitore dei
         <a class="nav-link active" id="nav-vertical-tab-ico1-tab" data-bs-toggle="tab" href="#nav-vertical-tab-ico1" role="tab" aria-controls="nav-vertical-tab-ico1" aria-selected="true">Tab 1 <svg class="icon"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-link"></use></svg></a>
         <a class="nav-link" id="nav-vertical-tab-ico2-tab" data-bs-toggle="tab" href="#nav-vertical-tab-ico2" role="tab" aria-controls="nav-vertical-tab-ico2" aria-selected="false">Tab 2 <svg class="icon"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-link"></use></svg></a>
         <a class="nav-link" id="nav-vertical-tab-ico3-tab" data-bs-toggle="tab" href="#nav-vertical-tab-ico3" role="tab" aria-controls="nav-vertical-tab-ico3" aria-selected="false">Tab 3 <svg class="icon"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-link"></use></svg></a>
-        <a class="nav-link">...</a>
       </div>
     </div>
     <div class="col-7 col-md-8 col-lg-9">
@@ -554,7 +551,6 @@ Le label dei Tab possono essere sostituite da icone, avendo cura di includere al
         <a class="nav-link justify-content-end active" id="nav-vertical-tab-ico-only1-tab" data-bs-toggle="tab" href="#nav-vertical-tab-ico-only1" role="tab" aria-controls="nav-vertical-tab-ico-only1" aria-selected="true"><span class="visually-hidden">Tab titolo 1</span> <svg class="icon"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-link"></use></svg></a>
         <a class="nav-link justify-content-end" id="nav-vertical-tab-ico-only2-tab" data-bs-toggle="tab" href="#nav-vertical-tab-ico-only2" role="tab" aria-controls="nav-vertical-tab-ico-only2" aria-selected="false"><span class="visually-hidden">Tab titolo 2</span> <svg class="icon"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-calendar"></use></svg></a>
         <a class="nav-link justify-content-end" id="nav-vertical-tab-ico-only3-tab" data-bs-toggle="tab" href="#nav-vertical-tab-ico-only3" role="tab" aria-controls="nav-vertical-tab-ico-only3" aria-selected="false"><span class="visually-hidden">Tab titolo 3</span> <svg class="icon"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-comment"></use></svg></a>
-        <a class="nav-link justify-content-end">...</a>
       </div>
     </div>
     <div class="col-9">
@@ -607,7 +603,6 @@ Per posizionare i tab verticali a destra contenuto è necessario applicare la cl
         <a class="nav-link active" id="pos-vr1-tab" data-bs-toggle="tab" href="#pos-vr1" role="tab" aria-controls="pos-vr1" aria-selected="true"><svg class="icon"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-link"></use></svg> Tab 1</a>
         <a class="nav-link" id="pos-vr2-tab" data-bs-toggle="tab" href="#pos-vr2" role="tab" aria-controls="pos-vr2" aria-selected="false"><svg class="icon"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-link"></use></svg> Tab 2</a>
         <a class="nav-link" id="pos-vr3-tab" data-bs-toggle="tab" href="#pos-vr3" role="tab" aria-controls="pos-vr3" aria-selected="false"><svg class="icon"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-link"></use></svg> Tab 3</a>
-        <a class="nav-link">...</a>
       </div>
     </div>
     <div class="col-7 col-md-8 col-lg-9">
@@ -699,6 +694,13 @@ Per posizionare i tab verticali a destra contenuto è necessario applicare la cl
 
 ## Tab tipo Card
 
+{% capture callout %}
+Breaking feature dalla versione **2.13.0**
+
+Sono stati rimossi gli elementi delle liste con classe `nav-item-filler` per 
+tutte le tab di tipo `Card`.
+{% endcapture %}{% include callout.html content=callout type="danger" %}
+
 Aggiungere la classe `.nav-tabs-cards` al tag `ul` per ottenere un design tipo card.
 
 {% comment %}Example name: Con controllo pannelli, tipo card{% endcomment %}
@@ -708,7 +710,6 @@ Aggiungere la classe `.nav-tabs-cards` al tag `ul` per ottenere un design tipo c
   <li class="nav-item"><a class="nav-link" id="card-simple2-tab" data-bs-toggle="tab" href="#card-simpletab2" role="tab" aria-controls="card-simpletab2" aria-selected="false">Tab 2</a></li>
   <li class="nav-item"><a class="nav-link" id="card-simple3-tab" data-bs-toggle="tab" href="#card-simpletab3" role="tab" aria-controls="card-simpletab3" aria-selected="false">Tab 3</a></li>
   <li class="nav-item"><a class="nav-link disabled" id="card-simple4-tab" data-bs-toggle="tab" href="#card-simpletab4" role="tab" aria-controls="card-simpletab4" aria-selected="false" aria-disabled="true"  tabindex="-1">Tab 4 Disabilitato</a></li>
-  <li class="nav-item-filler"></li>
 </ul>
 <div class="tab-content" id="card-simpleContent">
   <div class="tab-pane p-4 fade show active" id="card-simpletab1" role="tabpanel" aria-labelledby="card-simple1-tab">Contenuto 1</div>
@@ -742,7 +743,6 @@ Aggiungere le classi `.nav-tabs-editable` e `.nav-tabs-cards` al tag `ul` per ot
         <a class="nav-link disabled" id="card-simple-btn4-tab" data-bs-toggle="tab" href="#card-simple-btntab4" role="tab" aria-controls="card-simple-btntab4" aria-selected="false" aria-disabled="true"  tabindex="-1">Tab 4 Disabilitato</a>
         <a class="nav-link-close disabled" href="#"><svg class="icon"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-close"></use></svg><span class="visually-hidden"> Chiudi tab 4</span></a>
       </li>
-      <li class="nav-item-filler"></li>
       <li class="nav-item">
         <a class="nav-tab-add"><span class="visually-hidden"> Aggiungi un tab</span></a>
       </li>
