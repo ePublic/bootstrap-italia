@@ -5,6 +5,8 @@
 // HSB (https://it.wikipedia.org/wiki/Hue_Saturation_Brightness, coincidente con il modello HSV)
 // è lo spazio colore scelto per ottenere le varianti colore della tonalità primaria.
 
+// NOTA EP: Tutti i colori h "210" sono stati sostituiti con "primary-h"
+
 // Color system ==============================================================
 
 $black: hsl(0, 0%, 0%) !default;
@@ -77,13 +79,13 @@ $orange-accessible: $orange !default;
 $yellow-accessible: hsb(44, 100, 59) !default;
 $green-accessible: $green !default;
 
-$gray-primary: hsb(210, 38.9, 44.3) !default;
-$gray-secondary: hsl(210, 17%, 44%) !default; // color-slate-44
+$gray-primary: hsb($primary-h, 38.9, 44.3) !default;
+$gray-secondary: hsl($primary-h, 17%, 44%) !default; // color-slate-44
 $gray-tertiary: hsb(205, 35, 54) !default;
 $gray-quaternary: hsb(238, 1, 100) !default;
-$gray-border: hsl(210, 4%, 78%) !default; // color-border-subtle
-$gray-disabled: hsl(210, 3%, 85%) !default; // color-background-disabled
-$gray-label-disabled: hsl(210, 12%, 44%) !default; // color-text-disabled
+$gray-border: hsl($primary-h, 4%, 78%) !default; // color-border-subtle
+$gray-disabled: hsl($primary-h, 3%, 85%) !default; // color-background-disabled
+$gray-label-disabled: hsl($primary-h, 12%, 44%) !default; // color-text-disabled
 $gray-border-disabled: $gray-disabled !default; // color-border-disabled
 
 $secondary: $gray-secondary !default;
@@ -174,30 +176,30 @@ $complementary-3-b: 81;
 $complementary-3: hsb($complementary-3-h, $complementary-3-s, $complementary-3-b) !default;
 
 // NEUTRAL COLORS DEFINITIONS
-$neutral-1-h: 210;
+$neutral-1-h: $primary-h;
 $neutral-1-s: 70;
 $neutral-1-b: 30;
 $neutral-1: hsb($neutral-1-h, $neutral-1-s, $neutral-1-b) !default;
-$neutral-2-h: 210;
+$neutral-2-h: $primary-h;
 $neutral-2-s: 5;
 $neutral-2-b: 95;
 $neutral-2: hsb($neutral-2-h, $neutral-2-s, $neutral-2-b) !default;
 
 // Light Greys A
-$lightgrey-a1: hsl(210, 3%, 85%); // progress-background-default
+$lightgrey-a1: hsl($primary-h, 3%, 85%); // progress-background-default
 $lightgrey-a2: #edf5fc;
-$lightgrey-a3: hsl(210, 62%, 97%); // color-background-primary-lighter
+$lightgrey-a3: hsl($primary-h, 62%, 97%); // color-background-primary-lighter
 $lightgrey-a4: #f5f9fc;
 
 // Light Greys B
-$lightgrey-b1: hsl(210, 62%, 97%); // color-background-primary-lighter
+$lightgrey-b1: hsl($primary-h, 62%, 97%); // color-background-primary-lighter
 $lightgrey-b2: #ebf2fa;
 $lightgrey-b3: #edf4fa;
 $lightgrey-b4: #f2f6fa;
 
 // Light Greys C
 $lightgrey-c1: #f7f9fa;
-$lightgrey-c2: hsl(210, 62%, 97%); // color-background-primary-lighter;
+$lightgrey-c2: hsl($primary-h, 62%, 97%); // color-background-primary-lighter;
 
 //***********************************************************************
 //********************Primary color variations***************************
@@ -410,24 +412,24 @@ $neutral-2-a7: hsb($neutral-2-h, $neutral-2-s + 4, $neutral-2-b - 85) !default;
 // SEMANTIC TOKENS =========================================================
 
 // Backgrounds
-$color-background-emphasis: hsl(210, 54%, 20%); // color-slate-20
-$color-background-primary-lighter: hsl(210, 62%, 97%); // color-blue-97
-$color-background-primary-hover: hsl(210, 100, 30); // color-blue-30
-$color-background-secondary-hover: hsl(210, 33%, 28%); // color-slate-28
-$color-background-secondary-lighter: hsl(210, 3%, 85%); // color-slate-85
+$color-background-emphasis: hsl($primary-h, 54%, 20%); // color-slate-20
+$color-background-primary-lighter: hsl($primary-h, 62%, 97%); // color-blue-97
+$color-background-primary-hover: hsl($primary-h, 100, 30); // color-blue-30
+$color-background-secondary-hover: hsl($primary-h, 33%, 28%); // color-slate-28
+$color-background-secondary-lighter: hsl($primary-h, 3%, 85%); // color-slate-85
 $color-background-muted: $gray-100; // color-gray-96
 
 // Borders
-$color-border-secondary: hsl(210, 17%, 44%); // color-slate-44
-$color-border-subtle: hsl(210, 4%, 78%); // color-slate-78
+$color-border-secondary: hsl($primary-h, 17%, 44%); // color-slate-44
+$color-border-subtle: hsl($primary-h, 4%, 78%); // color-slate-78
 $color-border-warning: hsl(36, 100%, 30%); // color-orange-30
 
 // Text
-$color-text-primary-active: hsl(210, 100%, 15%); // color-blue-15
-$color-text-primary-hover: hsl(210, 100%, 30%); // color-blue-30
-$color-text-muted: hsl(210, 17%, 44%); // color-slate-44
+$color-text-primary-active: hsl($primary-h, 100%, 15%); // color-blue-15
+$color-text-primary-hover: hsl($primary-h, 100%, 30%); // color-blue-30
+$color-text-muted: hsl($primary-h, 17%, 44%); // color-slate-44
 $color-text-base: $gray-900; // color-gray-10
-$color-text-secondary: hsl(210, 33%, 28%); // color-slate-28
+$color-text-secondary: hsl($primary-h, 33%, 28%); // color-slate-28
 $color-text-warning: hsl(36, 100%, 30%); // color-orange-30
 
 // SPECIFIC TOKENS =========================================================
@@ -1947,7 +1949,7 @@ $hero-negative-bottom-padding-mob: 96px;
 $crs-margin-bottom: $v-gap * 3;
 $crs-mob-live-padding: $v-gap * 2;
 $crs-dots-simension: $v-gap;
-$crs-dots-color: hsl(210, 83%, 77%) !default;
+$crs-dots-color: hsl($primary-h, 83%, 77%) !default;
 $crs-dots-margin-left: 38px;
 $crs-dots-margin-left-desk: $v-gap * 2;
 $crs-heading-h-padding: $v-gap * 3;
@@ -1966,7 +1968,7 @@ $grid-list-text-gap: $v-gap;
 $grid-item-sm-col: 50%;
 $grid-item-lg-col: 33.333333%;
 $grid-item-icon-size: 24px;
-$grid-item-overlay: hsla(210%, 54%, 20, 0.85);
+$grid-item-overlay: hsla($primary-h%, 54%, 20, 0.85);
 
 // list
 $list-font-size: 1rem;
@@ -2002,9 +2004,9 @@ $transfer-height: 240px;
 //Timeline
 $timeline-width: 4px;
 $timeline-padding: 12px;
-$timeline-border-color: linear-gradient(0deg, $primary 0%, hsl(210, 100%, 20%) 100%) !default; // UI kit
+$timeline-border-color: linear-gradient(0deg, $primary 0%, hsl($primary-h, 100%, 20%) 100%) !default; // UI kit
 $timeline-pin-size: $v-gap * 3;
-$timeline-pin-background: hsl(210, 100%, 20%); // color-blue-20
+$timeline-pin-background: hsl($primary-h, 100%, 20%); // color-blue-20
 $timeline-pin-circle-size: 48px;
 $timeline-pin-circle-border: $v-gap solid $white !default;
 $timeline-content-padding: 18px 0 18px 40px;
