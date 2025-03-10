@@ -1,9 +1,9 @@
 Nostre modifiche alla libreria:
 
-- file personalizzato ep-bootstrap-italia.scss che importa ep_colors_vars.scss
-- file personalizzato ep_colors_vars.scss che contiene i nostri colori
+- file personalizzato ep-bootstrap-italia.scss che importa _variables-ep.scss
+- file personalizzato _variables-ep.scss che contiene i nostri colori
 
-NOTA: in caso di aggiornamento verificare le modifiche fatte nei file originali bootstrap-italia.scss e colors_vars.scss ed inserirle in quelli personalizzati ep.
+NOTA: in caso di aggiornamento verificare le modifiche fatte nei file originali bootstrap-italia.scss e _variables.scss ed inserirle in quelli personalizzati ep.
 
 - il file rollup.config.js contiene i nomi dei file da creare per le varie combinazioni di colori, in caso sia necessario un nuovo colore va aggiunta una nuova configurazione
 

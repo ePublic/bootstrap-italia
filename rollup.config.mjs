@@ -250,14 +250,28 @@ export default [
     input: 'src/scss/bi-viola-7A0052.scss',
     plugins: [scss({ output: 'dist/css/bi-viola-7A0052.min.css', outputStyle: 'compressed', watch: 'src/scss' })],
   },
-
-  {
-    input: 'src/scss/bi-blu-OC.scss',
-    plugins: [scss({ output: 'dist/css/bi-blu-OC.css', outputStyle: 'compressed', watch: 'src/scss' })],
-  },
-
   {
     input: 'src/scss/bi-nero-porpora-7D2670.scss',
     plugins: [scss({ output: 'dist/css/bi-nero-porpora-7D2670.css', outputStyle: 'compressed', watch: 'src/scss' })],
-  },  
+  },
+  {
+    input: 'src/scss/bi-OC-acquamarina.scss',
+    plugins: [scss({ output: 'dist/css/bi-OC-acquamarina.css', outputStyle: 'compressed', watch: 'src/scss' })],
+  },
+  {
+    input: 'src/scss/bi-OC-blu.scss',
+    plugins: [scss({ output: 'dist/css/bi-OC-blu', outputStyle: 'compressed', watch: 'src/scss' })],
+  },
+  {
+    input: 'src/scss/bi-OC-mediterraneo.scss',
+    plugins: [scss({ output: 'dist/css/bi-OC-mediterraneo.css', outputStyle: 'compressed', watch: 'src/scss' })],
+  },
+  {
+    input: 'src/scss/bi-OC-rustico.scss',
+    plugins: [scss({ output: 'dist/css/bi-OC-rustico.css', outputStyle: 'compressed', watch: 'src/scss' })],
+  },
+  {
+    input: 'src/scss/bi-OC-verdone.scss',
+    plugins: [scss({ output: 'dist/css/bi-OC-verdone.css', outputStyle: 'compressed', watch: 'src/scss' })],
+  },
 ]
