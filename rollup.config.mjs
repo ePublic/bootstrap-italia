@@ -260,7 +260,7 @@ export default [
   },
   {
     input: 'src/scss/bi-OC-blu.scss',
-    plugins: [scss({ output: 'dist/css/bi-OC-blu', outputStyle: 'compressed', watch: 'src/scss' })],
+    plugins: [scss({ output: 'dist/css/bi-OC-blu.css', outputStyle: 'compressed', watch: 'src/scss' })],
   },
   {
     input: 'src/scss/bi-OC-mediterraneo.scss',
