@@ -254,6 +254,7 @@ export default [
     input: 'src/scss/bi-nero-porpora-7D2670.scss',
     plugins: [scss({ output: 'dist/css/bi-nero-porpora-7D2670.min.css', outputStyle: 'compressed', watch: 'src/scss' })],
   },
+
   {
     input: 'src/scss/bi-OC-acquamarina.scss',
     plugins: [scss({ output: 'dist/css/bi-OC-acquamarina.min.css', outputStyle: 'compressed', watch: 'src/scss' })],
@@ -273,5 +274,9 @@ export default [
   {
     input: 'src/scss/bi-OC-verdone.scss',
     plugins: [scss({ output: 'dist/css/bi-OC-verdone.min.css', outputStyle: 'compressed', watch: 'src/scss' })],
+  },
+  {
+    input: 'src/scss/bi-OC-cagliari.scss',
+    plugins: [scss({ output: 'dist/css/bi-OC-cagliari.min.css', outputStyle: 'compressed', watch: 'src/scss' })],
   },
 ]
