@@ -5,9 +5,9 @@ Nostre modifiche alla libreria:
 
 NOTA: in caso di aggiornamento verificare le modifiche fatte nei file originali bootstrap-italia.scss e _variables.scss ed inserirle in quelli personalizzati ep.
 
-- il file rollup.config.js contiene i nomi dei file da creare per le varie combinazioni di colori, in caso sia necessario un nuovo colore va aggiunta una nuova configurazione
+- il file rollup.config.mjs contiene i nomi dei file da creare per le varie combinazioni di colori, in caso sia necessario un nuovo colore va aggiunta una nuova configurazione
 
-- per ogni nuova combinazione di colori va aggiunto un file nella cartella src\scss con il nome della combinazione (lo stesso che va inserito in rollup.config.js), il file contiene
+- per ogni nuova combinazione di colori va aggiunto un file nella cartella src\scss con il nome della combinazione (lo stesso che va inserito in rollup.config.mjs), il file contiene
 la definizione del colore e l'import del scss della libreria, esempio:
 
 $primary-h: 240;
