@@ -1,3 +1,86 @@
+# [2.17.0](https://github.com/italia/bootstrap-italia/compare/v2.16.2...v2.17.0) (2025-10-28)
+
+
+### Bug Fixes
+
+* border for custom outline button variants ([b034f8b](https://github.com/italia/bootstrap-italia/commit/b034f8b7653b9a9fc0c3f778b19d4b9673122fdb))
+* duplicated text color classes ([8c6a789](https://github.com/italia/bootstrap-italia/commit/8c6a789cc9254400a5016c2f8c81f8a41f95d97a))
+* icon alignment ([063664b](https://github.com/italia/bootstrap-italia/commit/063664bca5607aba1696af61cc67a83b30eb9807))
+* icon alignment ([23c82bb](https://github.com/italia/bootstrap-italia/commit/23c82bbe60fd8f961ca8cb5404e05a60af82ba82))
+* icon wrapper ([ea8e992](https://github.com/italia/bootstrap-italia/commit/ea8e9921ec8494b153099f8b7e1e4796ee41ec75))
+* input optgroup and textarea text color ([d6d40ea](https://github.com/italia/bootstrap-italia/commit/d6d40ea14906bd368c056127e010ed7070f35cee))
+* reduce form label z-index ([6f22a65](https://github.com/italia/bootstrap-italia/commit/6f22a6591fee36d84015853bb55cdd35b6a523b9))
+* remove position absolute ([2459119](https://github.com/italia/bootstrap-italia/commit/245911924fc4538d714a95ab98707d9ee8e357ec))
+* right alignment ([c5006e5](https://github.com/italia/bootstrap-italia/commit/c5006e5810aa79efa29c3906fd19dbfd43fad5b8))
+
+
+### Features
+
+* make accent and neutral HSB variables overridable ([12ab844](https://github.com/italia/bootstrap-italia/commit/12ab844cc92ee5f9fdc60ae4cbd839ecbd9c550f))
+
+
+
+## [2.16.2](https://github.com/italia/bootstrap-italia/compare/v2.16.1...v2.16.2) (2025-09-29)
+
+
+### Bug Fixes
+
+* card rounded corners ([5582db8](https://github.com/italia/bootstrap-italia/commit/5582db83fb25441ee5761cf751587c440c0bb35c))
+* remove `link-secondary` class ([c5d9100](https://github.com/italia/bootstrap-italia/commit/c5d91002f3a25e5960ba487dfb975a008702d4c8))
+* svg icon path in example html ([cec00d8](https://github.com/italia/bootstrap-italia/commit/cec00d827a832da27af15d3ff2c2e342af452c42))
+
+
+
+## [2.16.1](https://github.com/italia/bootstrap-italia/compare/v2.16.0...v2.16.1) (2025-09-11)
+
+
+### Bug Fixes
+
+* button states on bg-dark containers ([3aa408e](https://github.com/italia/bootstrap-italia/commit/3aa408eae9e93af2a64cb1ba70479cc4db10f91b))
+* disabled toggles in fieldset ([57dd640](https://github.com/italia/bootstrap-italia/commit/57dd640fc69a6d0e94af566c02e1c05e5883d694))
+* docs sidebar active links ([4959d5c](https://github.com/italia/bootstrap-italia/commit/4959d5c28a2292342b1f0d5889fcdab02c3f59fe))
+* navbar collapsable width on large devices ([988e0f5](https://github.com/italia/bootstrap-italia/commit/988e0f5c240ec6ac466d8c3c30e957eb7f5ce6ee))
+* optimized svg code ([84e1395](https://github.com/italia/bootstrap-italia/commit/84e139511c0adcc48aa095550a1c8dd3c2d5e9d2))
+
+
+
+# [2.16.0](https://github.com/italia/bootstrap-italia/compare/v2.15.1...v2.16.0) (2025-06-24)
+
+
+### Features
+
+* new card component ([caa76e1](https://github.com/italia/bootstrap-italia/commit/caa76e130208429b7d6269773ce2657ce6e9405a))
+
+
+
+## [2.15.1](https://github.com/italia/bootstrap-italia/compare/v2.15.0...v2.15.1) (2025-06-20)
+
+
+### Bug Fixes
+
+* carousel sass variable typo ([54f8a36](https://github.com/italia/bootstrap-italia/commit/54f8a36c59280e0dabf424069ae7d17ec8c348f9))
+
+
+
+# [2.15.0](https://github.com/italia/bootstrap-italia/compare/v2.14.0...v2.15.0) (2025-06-18)
+
+
+### Bug Fixes
+
+* remove obsolete comuni examples ([9d1e42d](https://github.com/italia/bootstrap-italia/commit/9d1e42dc8b38e2417b2a0bfd996e5032437c0bae))
+
+
+### Features
+
+* **a11y:** add navbar screen reader mobile support and dialog refactoring ([b654632](https://github.com/italia/bootstrap-italia/commit/b6546323eb19503b85da33fb84f007d4320d6c83))
+
+
+### BREAKING CHANGES
+
+* **a11y:** navbar now uses a dialog pattern with backdrop. You can read detailed information on breaking changes reading [sticky](https://italia.github.io/bootstrap-italia/docs/componenti/sticky/#breaking-change), [header](https://italia.github.io/bootstrap-italia/docs/menu-di-navigazione/header/#breaking-change) and [navscroll](https://italia.github.io/bootstrap-italia/docs/menu-di-navigazione/navscroll/#breaking-change) breaking change sections.
+
+
+
 # [2.14.0](https://github.com/italia/bootstrap-italia/compare/v2.13.4...v2.14.0) (2025-03-10)
 
 
