@@ -272,11 +272,26 @@ export default [
     input: 'src/scss/bi-viola-7A0052.scss',
     plugins: [scss({ output: 'dist/css/bi-viola-7A0052.min.css', outputStyle: 'compressed', watch: 'src/scss' })],
   },
+
+  // Musei
   {
     input: 'src/scss/bi-nero-porpora-7D2670.scss',
     plugins: [scss({ output: 'dist/css/bi-nero-porpora-7D2670.min.css', outputStyle: 'compressed', watch: 'src/scss' })],
   },
-
+  {
+    input: 'src/scss/bi-nero-blu-00517A.scss',
+    plugins: [scss({ output: 'dist/css/bi-nero-blu-00517A.min.css', outputStyle: 'compressed', watch: 'src/scss' })],
+  },
+  {
+    input: 'src/scss/bi-nero-rosso-7A0000.scss',
+    plugins: [scss({ output: 'dist/css/bi-nero-rosso-7A0000.min.css', outputStyle: 'compressed', watch: 'src/scss' })],
+  },
+  {
+    input: 'src/scss/bi-nero-verde-005C00.scss',
+    plugins: [scss({ output: 'dist/css/bi-nero-verde-005C00.min.css', outputStyle: 'compressed', watch: 'src/scss' })],
+  },  
+  
+  // OC
   {
     input: 'src/scss/bi-OC-acquamarina.scss',
     plugins: [scss({ output: 'dist/css/bi-OC-acquamarina.min.css', outputStyle: 'compressed', watch: 'src/scss' })],
