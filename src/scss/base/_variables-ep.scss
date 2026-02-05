@@ -80,7 +80,7 @@ $yellow-accessible: hsb(44, 100, 59) !default;
 $green-accessible: $green !default;
 
 $gray-primary: hsb($primary-h, 38.9, 44.3) !default;
-$gray-secondary: hsl($primary-h, 17%, 44%) !default; // color-slate-44
+// $gray-secondary: hsl($primary-h, 17%, 44%) !default; // color-slate-44
 $gray-tertiary: hsb(205, 35, 54) !default;
 $gray-quaternary: hsb(238, 1, 100) !default;
 $gray-border: hsl($primary-h, 4%, 78%) !default; // color-border-subtle

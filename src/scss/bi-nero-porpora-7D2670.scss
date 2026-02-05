@@ -11,4 +11,7 @@ $analogue-2-h: 309;
 $analogue-2-s: 70;
 $analogue-2-b: 25;
 
+// secondary based on accent
+$gray-secondary: hsl($analogue-1-h, 17%, 44%) !default;
+
 @import '../../src/scss/ep-bootstrap-italia.scss';

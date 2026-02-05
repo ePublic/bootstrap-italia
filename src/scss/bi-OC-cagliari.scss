@@ -12,4 +12,7 @@ $analogue-2-h: 178;
 $analogue-2-s: 95;
 $analogue-2-b: 85;
 
+// secondary based on primary
+$gray-secondary: hsl($primary-h, 17%, 44%) !default;
+
 @import '../../src/scss/ep-bootstrap-italia.scss';
