@@ -1,0 +1,39 @@
+$primary-h: 352;
+$primary-s: 100;
+$primary-b: 60;
+
+// ACCENT COLORS DEFINITIONS
+// analoghi
+$analogue-1-h: 243;
+$analogue-1-s: 85;
+$analogue-1-b: 100;
+$analogue-2-h: 178;
+$analogue-2-s: 95;
+$analogue-2-b: 85;
+
+// grigi basati sul colore Primary
+$gray-primary: hsb($primary-h, 38.9, 44.3) !default;
+$gray-secondary: hsl($primary-h, 17%, 44%) !default;
+$gray-border: hsl($primary-h, 4%, 78%) !default;
+$gray-disabled: hsl($primary-h, 3%, 85%) !default;
+$gray-label-disabled: hsl($primary-h, 12%, 44%) !default;
+
+// SEMANTIC TOKENS =========================================================
+// basati sul colore Primary
+// Backgrounds
+$color-background-emphasis: hsl($primary-h, 54%, 20%);
+$color-background-primary-lighter: hsl($primary-h, 62%, 97%);
+$color-background-primary-hover: hsl($primary-h, 100, 30);
+$color-background-secondary-hover: hsl($primary-h, 33%, 28%);
+$color-background-secondary-lighter: hsl($primary-h, 3%, 85%);
+
+// Borders
+$color-border-secondary: hsl($primary-h, 17%, 44%);
+$color-border-subtle: hsl($primary-h, 4%, 78%);
+
+// Text
+$color-text-primary-active: hsl($primary-h, 100%, 15%);
+$color-text-primary-hover: hsl($primary-h, 100%, 30%);
+$color-text-secondary: hsl($primary-h, 33%, 28%);
+
+@import '../../src/scss/ep-bootstrap-italia.scss';
