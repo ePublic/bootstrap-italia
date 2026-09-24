@@ -4,12 +4,12 @@ $primary-b: 20;
 
 // ACCENT COLORS DEFINITIONS
 // analoghi
-$analogue-1-h: 120;
-$analogue-1-s: 100;
-$analogue-1-b: 36;
-$analogue-2-h: 120;
-$analogue-2-s: 100;
-$analogue-2-b: 18;
+$analogue-1-h: 30;
+$analogue-1-s: 75;
+$analogue-1-b: 48;
+$analogue-2-h: 30;
+$analogue-2-s: 75;
+$analogue-2-b: 24;
 
 // grigi basati sul colore Analogue-1 o Primary senza saturazione
 $gray-primary: hsb($analogue-1-h, 38.9, 44.3) !default;
