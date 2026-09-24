@@ -289,7 +289,19 @@ export default [
   {
     input: 'src/scss/bi-nero-verde-005C00.scss',
     plugins: [scss({ output: 'dist/css/bi-nero-verde-005C00.min.css', outputStyle: 'compressed', watch: 'src/scss' })],
-  },  
+  },
+  {
+    input: 'src/scss/bi-nero-marrone-7A4C1F.scss',
+    plugins: [scss({ output: 'dist/css/bi-nero-marrone-7A4C1F.min.css', outputStyle: 'compressed', watch: 'src/scss' })],
+  },
+  {
+    input: 'src/scss/bi-nero-blu-00667A.scss',
+    plugins: [scss({ output: 'dist/css/bi-nero-blu-00667A.min.css', outputStyle: 'compressed', watch: 'src/scss' })],
+  },
+    {
+    input: 'src/scss/bi-nero-blu-1F4C7A.scss',
+    plugins: [scss({ output: 'dist/css/bi-nero-blu-1F4C7A.min.css', outputStyle: 'compressed', watch: 'src/scss' })],
+  },
   
   // OC
   {
