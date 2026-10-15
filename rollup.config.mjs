@@ -214,6 +214,10 @@ export default [
     input: 'src/scss/bi-marrone-5C5C00.scss',
     plugins: [scss({ output: 'dist/css/bi-marrone-5C5C00.min.css', outputStyle: 'compressed', watch: 'src/scss' })],
   },
+  {
+    input: 'src/scss/bi-marrone-705500.scss',
+    plugins: [scss({ output: 'dist/css/bi-marrone-705500.min.css', outputStyle: 'compressed', watch: 'src/scss' })],
+  },
 
   {
     input: 'src/scss/bi-rosso-660000.scss',
