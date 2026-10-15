@@ -197,6 +197,14 @@ export default [
     input: 'src/scss/bi-blu-29007A.scss',
     plugins: [scss({ output: 'dist/css/bi-blu-29007A.min.css', outputStyle: 'compressed', watch: 'src/scss' })],
   },
+  {
+    input: 'src/scss/bi-blu-264D99.scss',
+    plugins: [scss({ output: 'dist/css/bi-blu-264D99.min.css', outputStyle: 'compressed', watch: 'src/scss' })],
+  },
+  {
+    input: 'src/scss/bi-blu-265F99.scss',
+    plugins: [scss({ output: 'dist/css/bi-blu-265F99.min.css', outputStyle: 'compressed', watch: 'src/scss' })],
+  },  
 
   {
     input: 'src/scss/bi-marrone-5C3D00.scss',
@@ -226,6 +234,10 @@ export default [
   {
     input: 'src/scss/bi-rosso-992600.scss',
     plugins: [scss({ output: 'dist/css/bi-rosso-992600.min.css', outputStyle: 'compressed', watch: 'src/scss' })],
+  },
+  {
+    input: 'src/scss/bi-rosso-990F18.scss',
+    plugins: [scss({ output: 'dist/css/bi-rosso-990F18.min.css', outputStyle: 'compressed', watch: 'src/scss' })],
   },
 
   {
@@ -260,6 +272,11 @@ export default [
     input: 'src/scss/bi-verde-4A5C00.scss',
     plugins: [scss({ output: 'dist/css/bi-verde-4A5C00.min.css', outputStyle: 'compressed', watch: 'src/scss' })],
   },
+  {
+    input: 'src/scss/bi-verde-007A35.scss',
+    plugins: [scss({ output: 'dist/css/bi-verde-007A35.min.css', outputStyle: 'compressed', watch: 'src/scss' })],
+  },
+
   {
     input: 'src/scss/bi-viola-52007A.scss',
     plugins: [scss({ output: 'dist/css/bi-viola-52007A.min.css', outputStyle: 'compressed', watch: 'src/scss' })],
@@ -298,7 +315,7 @@ export default [
     input: 'src/scss/bi-nero-blu-00667A.scss',
     plugins: [scss({ output: 'dist/css/bi-nero-blu-00667A.min.css', outputStyle: 'compressed', watch: 'src/scss' })],
   },
-    {
+  {
     input: 'src/scss/bi-nero-blu-1F4C7A.scss',
     plugins: [scss({ output: 'dist/css/bi-nero-blu-1F4C7A.min.css', outputStyle: 'compressed', watch: 'src/scss' })],
   },
